@@ -1,0 +1,9 @@
+#### Install app
+cd App
+npm install
+react-native run-android
+
+#### Run server
+cd Server
+npm install
+npm start

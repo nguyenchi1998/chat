@@ -1,0 +1,8 @@
+server/node_modules
+server/node_modules/*.js
+server/.idea/*
+.vscode
+web/node_modules/*
+web/.idea/*
+web/.vscode/*
+.idea/*
