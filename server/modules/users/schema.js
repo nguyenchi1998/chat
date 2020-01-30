@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import jwt from 'jsonwebtoken';
 import Joi from 'joi';
 import bcrypt from 'bcryptjs';
 
@@ -36,7 +35,6 @@ const user = new Schema({
     timestamps: true,
 });
 
-
 user.pre('save', async function(next) {
     const user = this;
     if (user.isModified('password')) {
@@ -60,7 +58,6 @@ user.statics.findByCredentials = async (email, password) => {
 
 const validateUser = (user) => {
     const schema = {
-        name: Joi.string().required(),
         email: Joi.string().email().required(),
         phone: Joi.string().required().regex(/09|01|06\d{8}/),
         password: Joi.string().required().min(6),

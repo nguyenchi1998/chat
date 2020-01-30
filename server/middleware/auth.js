@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import httpStatus from 'http-status';
-import * as response from '../helper/response';
+import  response from '../helper/response';
 import { User } from '../modules/users/schema';
 import * as lodash from 'lodash';
 

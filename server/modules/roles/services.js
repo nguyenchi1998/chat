@@ -1,4 +1,4 @@
-import { Role } from './schema';
+import Role from './schema';
 
 const DELETE_STATUS = 0;
 export default {
@@ -13,7 +13,7 @@ export default {
       status: DELETE_STATUS,
     });
   },
-  createRole:(role) => {
+  createRole: (role) => {
     return Role.create(role);
   }
 };

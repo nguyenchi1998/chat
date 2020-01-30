@@ -1,3 +1,0 @@
-const FETCH_MESSAGES = 'FETCH_MESSAGES';
-
-export default { FETCH_MESSAGES };

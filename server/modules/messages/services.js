@@ -1,4 +1,4 @@
-import { Message } from './schema';
+import  Message  from './schema';
 
 const DELETE_STATUS = 0;
 export default {
