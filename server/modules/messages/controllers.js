@@ -1,4 +1,3 @@
-import Message from './schema';
 import { connect } from '../../config/database';
 import httpStatus from 'http-status';
 import response from '../../helper/response';
@@ -16,7 +15,7 @@ export default {
       res.status(httpStatus.INTERNAL_SERVER_ERROR)
         .send(response.fail(
           httpStatus.INTERNAL_SERVER_ERROR,
-          err.message
+          err
         ));
     }
   },
