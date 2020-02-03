@@ -9,5 +9,8 @@ module.exports = {
     'plugin:vue/recommended',
     'prettier',
     'prettier/vue'
-  ]
+  ],
+  rules: {
+    "no-console": "off",
+  }
 };

@@ -5,20 +5,14 @@
 </template>
 
 <script>
-import auth from "@/auth";
 
 export default {
   name: "App",
-  data() {
-    return {
-      loggedIn: auth.loggedIn
-    };
+  computed: {
+    isLoggedIn: function() {
+      return this.$store.getters.isLoggedIn;
+    }
   },
-  created() {
-    auth.onChange = loggedIn => {
-      this.loggedIn = loggedIn;
-    };
-  }
 };
 </script>
 

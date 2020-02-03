@@ -28,8 +28,7 @@ export default {
   },
   refreshToken: async (req, res) => {
     const { refreshToken } = req.body;
-    console.log(refreshToken);
-    const user = jwt.verify(refreshToken, process.env.publicRefreshToken);
+    const user = jwt.verify(refreshToken, process.env.refreshToken);
     if (!user)
       return res.status(httpStatus.NOT_FOUND)
         .send(response.success(
