@@ -1,0 +1,87 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/button-has-type": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/interactive-supports-focus": "off",
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "styled-components",
+            "message": "Please import from styled-components/macro."
+          },
+          {
+            "name": "@emotion/styled",
+            "message": "Please import from @emotion/styled/macro."
+          },
+          {
+            "name": "@emotion/react",
+            "message": "Please import from @emotion/react/macro."
+          }
+        ],
+        "patterns": [
+          "!styled-components/macro",
+          "!@emotion/styled/macro",
+          "!@emotion/react/macro"
+        ]
+      }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "labelComponents": [],
+        "labelAttributes": [],
+        "controlComponents": [],
+        "assert": "both",
+        "depth": 25
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/no-array-index-key": "off",
+    "no-plusplus": "off",
+    "import/prefer-default-export": "off",
+    "camelcase": "off",
+    "no-nested-ternary": "off",
+    "no-unused-vars": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "import/no-extraneous-dependencies": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["./src", "node_modules"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  }
+}

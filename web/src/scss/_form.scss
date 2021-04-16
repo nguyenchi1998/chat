@@ -1,0 +1,190 @@
+.form-control {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  color: #000 !important;
+  font-size: 14px;
+  padding: 25px 15px;
+  width: 100% !important;
+  -webkit-box-shadow: 0 6px 17px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 6px 17px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 6px 17px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 6px 17px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 17px rgba(0, 0, 0, 0.1);
+  &:focus {
+    background: #fff;
+    border: none !important;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  &::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #bdbac2;
+  }
+}
+.btn {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+  background: 0 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  &:active {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+  }
+  &:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+  }
+  &:hover {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+  }
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      border: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      -ms-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none;
+      outline: 0;
+    }
+    &:not(.disabled) {
+      &:active {
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+  }
+}
+.show {
+  > .btn.dropdown-toggle {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+  }
+}
+.button {
+  padding: 16px 25px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%) repeat scroll 0 0;
+  color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 30px 5px #f5f5f5;
+  -moz-box-shadow: 0 0 30px 5px #f5f5f5;
+  -ms-box-shadow: 0 0 30px 5px #f5f5f5;
+  -o-box-shadow: 0 0 30px 5px #f5f5f5;
+  box-shadow: 0 0 30px 5px #f5f5f5;
+  font-size: 14px;
+  &:hover {
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    -ms-opacity: 0.9;
+    -o-opacity: 0.9;
+    opacity: 0.9;
+  }
+}
+.bg-blue {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%) repeat scroll 0 0 !important;
+}
+.bg-indigo {
+  background: #6610f2 !important;
+}
+.bg-purple {
+  background: #6f42c1 !important;
+}
+.bg-red {
+  background: #f75454 !important;
+}
+.bg-pink {
+  background: #e83e8c !important;
+}
+.bg-orange {
+  background: #fd7e14 !important;
+}
+.bg-green {
+  background: #28a745 !important;
+}
+.bg-teal {
+  background: #20c997 !important;
+}
+.bg-yellow {
+  background: #ffc107 !important;
+}
+a.facebook {
+  background: #516eab;
+}
+a.twitter {
+  background: #55acee;
+}
+a.google {
+  background: #dd4b39;
+}
+a.pinterest {
+  background: #ca212a;
+}
+a.youtube {
+  background: #e62117;
+}
+a.dribble {
+  background: #1572b8;
+}
+a.linkedin {
+  background: #0077b5;
+}
+a.tumblr {
+  background: #36465d;
+}
+a.rss {
+  background: #e3a103;
+}
+a.vk {
+  background: #466991;
+}

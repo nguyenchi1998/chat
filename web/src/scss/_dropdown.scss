@@ -1,0 +1,113 @@
+.dropdown-menu {
+  border: medium none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 20px rgba(157, 184, 209, 0.7);
+  -moz-box-shadow: 0 10px 20px rgba(157, 184, 209, 0.7);
+  -ms-box-shadow: 0 10px 20px rgba(157, 184, 209, 0.7);
+  -o-box-shadow: 0 10px 20px rgba(157, 184, 209, 0.7);
+  box-shadow: 0 10px 20px rgba(157, 184, 209, 0.7);
+  margin-top: 10px;
+  min-width: 180px;
+  padding: 10px;
+}
+
+.create.btn:not(:disabled):not(.disabled):active,
+.show > .btn.dropdown-toggle,
+.sidebar .create,
+.sidebar .create.btn:not(:disabled):not(.disabled).active {
+  -webkit-box-shadow: 0 0 30px 5px #f5f5f5;
+  -moz-box-shadow: 0 0 30px 5px #f5f5f5;
+  -ms-box-shadow: 0 0 30px 5px #f5f5f5;
+  -o-box-shadow: 0 0 30px 5px #f5f5f5;
+  box-shadow: 0 0 30px 5px #f5f5f5;
+}
+
+.dropdown-item,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #bdbac2;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.dropdown-menu hr {
+  border-top: 2px solid #fbfbfb;
+  margin: 10px;
+}
+
+.dropdown-item {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  color: #888;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  font-size: 13px;
+  padding: 8px 10px;
+}
+
+.dropdown-item > i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.dropdown-item:hover {
+  background: #f4f8ff none repeat scroll 0 0;
+  color: #000;
+}
+
+.dropdown-item:focus {
+  background: 0 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%) repeat scroll 0 0 !important;
+  color: #fff !important;
+}
+
+.sidebar .contacts .contact .avatar-md,
+.sidebar .discussions .single .avatar-md,
+.sidebar .notifications .notification .avatar-md {
+  margin-right: 15px;
+}
+
+.navigation {
+  background: #fff;
+}
+
+.navigation .inside .menu .btn {
+  padding: 0;
+  color: inherit;
+}
+
+.navigation .inside .menu .btn:last-child {
+  margin-bottom: 30px;
+}
+
+.navigation .inside .menu .avatar-xl:hover {
+  border: 3px solid rgba(0, 0, 0, 0)
+    linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%) repeat scroll 0 0;
+}
+
+.navigation .inside .menu .power:hover {
+  color: #dc3545;
+}
+
+.navigation .inside .menu .mode:hover {
+  color: rgba(0, 0, 0, 0) linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%)
+    repeat scroll 0 0;
+}
